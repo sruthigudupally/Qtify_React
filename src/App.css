@@ -1,0 +1,308 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  /* background-color: black; */
+}
+
+/* Nav Component */
+nav{
+  background-color: #34c94b;
+  display: flex;
+  justify-content: space-around;
+  height:80px;
+  align-items: center;
+}
+#ndiv1 input{
+  padding: 14px 20px;
+  border-radius: 8px 0px 0px 8px;
+  width:326px;
+  border:solid 1px;
+}
+#ndiv1 input::placeholder{
+  font-size: 16px;
+}
+#ndiv1 input:focus{
+  outline: none;
+}
+#ndiv1 button{
+  padding:14px 19px;
+  border-radius: 0px 8px 8px 0px;
+  border:solid 1px;
+}
+#feed{
+  padding:6px 12px;
+  background-color:black;
+  color:#34c94b;
+  font-size: 22px;
+  border-radius: 8px;
+  border:none;
+}
+
+
+
+
+
+/*Cards Component  */
+
+#cmaindiv{
+  background-color: black;
+}
+#cdiv1{
+  background-color: black;
+  color:white;
+  padding:20px 250px;
+  display: flex;
+  height: 270px;
+}
+#cdiv1h1{
+  width:600px;
+  padding:50px 0px;
+  height:212px;
+  /* border:solid; */
+}
+#cdiv1h1 h1{
+  margin: 10px ;
+  font-size: 2.1rem;
+}
+#h1{
+  padding:0px 0px 0px 40px;
+}
+#cdiv1img{
+  width:212px;
+  height:212px;
+}
+
+/* Cards */
+
+#top{
+  color:white;
+  font-size: 22px;
+  margin:10px 80px;
+}
+#cardsdiv{
+  /* border:solid white; */
+  display: flex;
+  flex-wrap: wrap;
+  color:white;
+  margin: 10px 0px 10px 80px;
+  
+}
+.carddiv{
+  width:165px;
+  height:260px;
+  /* border:solid #34c94b; */
+  color:white;
+  margin:20px 20px 30px 0px;
+
+}
+.cdata1{
+  width:160px;
+  height:200px;
+  /* border:solid white; */
+  overflow: hidden;
+  border-radius: 10px;
+}
+.cdata11{
+ width:100%;
+ background-color: #34c94b;
+ margin-top: -85px;
+ position: relative;
+ padding:10px 10px 20px;
+}
+.cdataspan{
+ 
+  background-color: black;
+  padding:5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+.cimg{
+  
+  width:100%;
+  
+  
+}
+.cdatatitle{
+  font-size: 18px;
+  /* margin:10px; */
+}
+
+/* Songs */
+#songs{
+  border-top:solid #34c94b;
+  border-bottom:solid #34c94b;
+  color:#34c94b;
+  width: 100%;
+}
+#songsheading{
+  margin:60px 0px 20px 80px;
+}
+
+
+/* LAst Component */
+#last1{
+  background-color: black;
+  padding: 60px;
+  height:70vh;
+}
+#acc{
+  /* border:solid; */
+  
+  width:70%;
+  margin: auto;
+  border:none;
+}
+.accitem{
+  margin-bottom: 20px;
+  /* border-radius: 20px; */
+  /* background-color: black; */
+  border:none;
+}
+.acchead{
+  /* border-radius: 20px; */
+  color:#34c94b;
+}
+#faqs{
+  text-align: center;
+  color: #34c94b;
+  font-size:60px;
+  margin:20px;
+  /* padding:200px; */
+}
+#last2{
+  background-color: #34c94b;
+  color:white;
+  display: flex;
+  /* height:50vh; */
+}
+.last2divs{
+  /* border:solid white; */
+  margin:50px 100px 30px 70px;
+}
+.last2divs:first-child{
+  padding-right:30px;
+}
+
+
+.last2ps{
+  margin:0px 5px;
+}
+/* SongPage */
+#spnav{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 80px;
+}
+#spdiv1{
+  padding:130px 100px;
+  background-color:#121212;
+  display: flex;
+}
+#pageimg{
+  height:329px;
+  width:288px;
+  border-radius: 10px;
+}
+#backhome{
+  background-color: #34c94b;
+  border:none;
+  color: white;
+  padding:5px 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  position:absolute;
+  top: 120px;
+  left:100px;
+
+}
+#songdatamain{
+  /* border:solid; */
+  margin:0px 50px;
+  width:70%;
+  color:white;
+  
+  
+}
+#songdata{
+  /* border:solid; */
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  width:50%;
+}
+.songbutts{
+  background-color: black;
+  color:white;
+  padding:10px 20px;
+  border:solid 1px #34c94b;
+  border-radius: 10px;
+  margin:0px 30px;
+}
+
+/* table */
+#pagination{
+  background-color: #121212;
+  padding:60px 0px;
+  /* border:solid white; */
+}
+table{
+  /* border:solid ; */
+  margin:auto ;
+  width:80%;
+  color:white;
+}
+#thead{
+  background-color: #34c94b;
+  color:white;
+  font-size: 16px;
+}
+th,td{
+  border:solid 1px black;
+}
+th{
+  padding:10px 20px;
+}
+td{
+  padding: 20px;
+}
+tr:hover{
+  background-color: #34c94b;
+
+}
+#pagdiv{
+  background-color: #34c94b;
+  width:15%;
+  padding: 10px;
+  border:solid 1px;
+  border-radius: 20px;
+  position: absolute;
+  top:105vh;
+  right:60px;
+
+}
+#pagdiv button{
+  background-color: #34c94b;
+  border:solid 1px;
+  border-radius: 20px;
+  padding: 5px 12px;
+  margin:0px 2px;
+}
+#pagdiv button:hover{
+  background-color: white;
+}
+#error{
+  border:solid;
+  height:500px;
+  width:500px;
+  padding: 100px;
+  margin:20px auto;
+}
+#bth{
+  margin: 20px 80px;
+  padding: 10px;
+}
+#bth:hover{
+  background-color: #121212;
+  color: white;;
+}
